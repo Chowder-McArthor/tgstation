@@ -55,6 +55,8 @@
 	var/cell_move_power_usage = 1///How much power we use when we move.
 	var/num_steps = 0 ///The amount of steps we should take until we rest for a time.
 
+	var/AllowedType = /obj/structure/closet/crate //This lets us set the allowed inventory to be something other than crates
+	var/convoy = 1 //if we follow patrols on navbeacons
 
 
 /mob/living/simple_animal/bot/mulebot/Initialize(mapload)
@@ -391,21 +393,20 @@
 	if(!isturf(AM.loc)) //To prevent the loading from stuff from someone's inventory or screen icons.
 		return
 
-	var/obj/structure/closet/crate/crate = AM
-	if(!istype(crate))
+	if(!istype(AM, AllowedType))
 		if(!wires.is_cut(WIRE_LOADCHECK))
 			buzz(SIGH)
 			return // if not hacked, only allow crates to be loaded
-		crate = null
 
-	if(crate || isobj(AM))
+	if(isobj(AM))
 		var/obj/O = AM
 		if(O.has_buckled_mobs() || (locate(/mob) in AM)) //can't load non crates objects with mobs buckled to it or inside it.
 			buzz(SIGH)
 			return
 
-		if(crate)
-			crate.close()  //make sure the crate is closed
+		if(istype(AM, /obj/structure/closet))
+			var/obj/structure/closet/C = AM
+			C.close()  //make sure the crate is closed
 
 		O.forceMove(src)
 
@@ -452,8 +453,9 @@
 	if(load) //don't have to do any of this for mobs.
 		load.forceMove(loc)
 		load.pixel_y = initial(load.pixel_y)
-		load.layer = initial(load.layer)
-		SET_PLANE_EXPLICIT(load, initial(load.plane), src)
+	//	if(load.layer)
+	//	load.layer = initial(load.layer) //This is causing runtimes
+	//	SET_PLANE_EXPLICIT(load, initial(load.plane), src)
 		load = null
 
 	if(dirn) //move the thing to the delivery point.
@@ -652,8 +654,16 @@
 					load(AM)
 					if(mulebot_delivery_flags & MULEBOT_REPORT_DELIVERY_MODE)
 						speak("Now loading [load] at [RUNECHAT_BOLD("[get_area_name(src)]")].", radio_channel)
-		// whatever happened, check to see if we return home
 
+		if(convoy)
+			for(var/obj/machinery/navbeacon/NB in src.loc)
+				if(NB.loc == src.loc && NB.codes[NAVBEACON_PATROL_MODE]) //Does the Beacon location text match the destination?
+					var/X = NB.codes[NAVBEACON_PATROL_NEXT]
+					set_destination(X)
+					start()
+					return
+
+		// whatever happened, check to see if we return home
 		if((mulebot_delivery_flags & MULEBOT_RETURN_MODE) && home_destination && destination != home_destination)
 			// auto return set and not at home already
 			start_home()
