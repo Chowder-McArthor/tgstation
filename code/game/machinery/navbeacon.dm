@@ -236,3 +236,11 @@
 	else
 		codes[code]="[TRUE]"
 	glob_lists_register()
+
+//Indestructable, and doesn't need power. Also can't be tampered with.
+/obj/machinery/navbeacon/mining
+	name = "mining navigation beacon"
+	desc = "A navigation beacon, hardened against the creatures of Lavaland, and miners trying to modify it's contents."
+	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
+	max_integrity = 500
+	use_power = NO_POWER_USE

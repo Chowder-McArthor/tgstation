@@ -107,3 +107,5 @@
 /// Special override for notify_contents = FALSE.
 /obj/structure/ore_box/on_changed_z_level(turf/old_turf, turf/new_turf, same_z_layer, notify_contents = FALSE)
 	return ..()
+
+/obj/structure/ore_box/holobox	//Specifically for CONVOYs, will be deleted upon emptying

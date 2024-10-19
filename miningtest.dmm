@@ -1,0 +1,3541 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ai" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 4
+	},
+/area/space)
+"ar" = (
+/obj/structure/tank_dispenser/oxygen,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"aw" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/obj/structure/railing,
+/turf/open/floor/plating/reinforced,
+/area/space)
+"ax" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "mining_internal"
+	},
+/turf/open/floor/plating,
+/area/space)
+"aV" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"bB" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"cW" = (
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining"
+	},
+/obj/machinery/bouldertech/refinery/smelter,
+/turf/open/floor/iron,
+/area/space)
+"di" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "lavaland_mining_north"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining_station,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"dk" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/corner,
+/turf/open/floor/iron/dark/smooth_corner,
+/area/space)
+"dv" = (
+/obj/structure/tank_holder/extinguisher,
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/trimline/yellow/filled/arrow_ccw{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/filled/arrow_ccw{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 8
+	},
+/area/space)
+"dA" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 4
+	},
+/area/space)
+"ej" = (
+/obj/machinery/suit_storage_unit/mining,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"eM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 4
+	},
+/area/space)
+"eR" = (
+/obj/structure/ore_box,
+/obj/effect/turf_decal/trimline/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/arrow_cw{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 4
+	},
+/area/space)
+"eT" = (
+/obj/machinery/suit_storage_unit/mining,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"fi" = (
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"fn" = (
+/obj/effect/turf_decal/loading_area,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/iron/dark,
+/area/space)
+"fC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/item/radio/intercom/directional/east,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/turf/open/floor/iron,
+/area/space)
+"fN" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron,
+/area/space)
+"hr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"hy" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Mining Station Storage"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining_station,
+/turf/open/floor/plating,
+/area/space)
+"hT" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"ir" = (
+/obj/machinery/conveyor{
+	dir = 10;
+	id = "mining"
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
+"iv" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"iY" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"je" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"ju" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"jC" = (
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 4
+	},
+/area/space)
+"jQ" = (
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/east,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"jU" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"jW" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/structure/ore_box,
+/turf/open/floor/iron/dark/smooth_edge,
+/area/space)
+"kS" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"lm" = (
+/obj/machinery/conveyor{
+	id = "mining"
+	},
+/obj/machinery/brm,
+/turf/open/floor/iron,
+/area/space)
+"lr" = (
+/turf/open/floor/iron/dark/textured_corner,
+/area/space)
+"ly" = (
+/obj/machinery/camera/autoname/directional/north{
+	network = list("mine")
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge,
+/area/space)
+"mb" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"mk" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/machinery/newscaster/directional/east,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"mn" = (
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/machinery/conveyor{
+	id = "mining"
+	},
+/turf/open/floor/iron,
+/area/space)
+"mN" = (
+/obj/structure/railing/corner/end,
+/obj/effect/turf_decal/delivery,
+/obj/effect/decal/cleanable/rubble,
+/obj/structure/railing/corner/end{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
+"mV" = (
+/obj/machinery/airalarm/directional/north,
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"mW" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/turf/open/floor/iron/dark,
+/area/space)
+"nu" = (
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 1
+	},
+/area/space)
+"nY" = (
+/obj/machinery/shower/directional/west,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/arrow_ccw{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/filled/arrow_ccw{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 8
+	},
+/area/space)
+"ox" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"ps" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 1
+	},
+/obj/structure/barricade/wooden/crude,
+/obj/structure/barricade/wooden,
+/turf/open/floor/iron/dark,
+/area/space)
+"qt" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining"
+	},
+/obj/machinery/bouldertech/refinery/smelter,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
+"rh" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
+"rr" = (
+/obj/structure/railing/corner/end/flip{
+	dir = 4
+	},
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"rV" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining"
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/reinforced,
+/area/space)
+"tL" = (
+/obj/structure/plasticflaps,
+/turf/open/floor/plating/reinforced,
+/area/space)
+"tM" = (
+/turf/open/space/basic,
+/area/space)
+"uU" = (
+/obj/machinery/conveyor{
+	dir = 6;
+	id = "mining_internal"
+	},
+/turf/open/floor/plating,
+/area/space)
+"vy" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"vF" = (
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining"
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron,
+/area/space)
+"wg" = (
+/obj/structure/lattice/catwalk/mining,
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"Ae" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"Ag" = (
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 1
+	},
+/area/space)
+"Bk" = (
+/obj/structure/closet/emcloset,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/arrow_cw{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 4
+	},
+/area/space)
+"BE" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	id = "mining_internal"
+	},
+/turf/open/floor/plating,
+/area/space)
+"BV" = (
+/obj/machinery/airalarm/directional/north,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/structure/ore_box,
+/turf/open/floor/iron/dark,
+/area/space)
+"Cd" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/turf/open/floor/iron/dark,
+/area/space)
+"Cq" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 1
+	},
+/area/space)
+"Cu" = (
+/obj/machinery/mineral/processing_unit{
+	dir = 1;
+	input_dir = 8;
+	output_dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"CL" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Dk" = (
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 9;
+	id = "mining"
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
+"DF" = (
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/iron,
+/area/space)
+"Ef" = (
+/obj/machinery/mineral/processing_unit_console,
+/turf/closed/wall,
+/area/space)
+"EW" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "mining"
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
+"Fw" = (
+/obj/machinery/camera/autoname/directional/east{
+	network = list("mine")
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Fy" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"FH" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge,
+/area/space)
+"Gb" = (
+/obj/structure/railing/corner/end/flip,
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron,
+/area/space)
+"Gn" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"GC" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 4
+	},
+/area/space)
+"IU" = (
+/obj/structure/closet/emcloset,
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/turf/open/floor/iron/dark,
+/area/space)
+"Jj" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 10
+	},
+/obj/machinery/computer/order_console/mining,
+/turf/open/floor/iron/dark,
+/area/space)
+"Ju" = (
+/obj/effect/turf_decal/stripes,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"JN" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/conveyor_switch/oneway{
+	id = "mining";
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"JP" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/turf/open/floor/iron/dark,
+/area/space)
+"Ka" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron,
+/area/space)
+"Kn" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/structure/table,
+/obj/item/paper/fluff/stations/lavaland/orm_notice,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/space)
+"Ky" = (
+/obj/machinery/computer/order_console/mining,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge,
+/area/space)
+"KA" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "mining_internal";
+	name = "smelter conveyor"
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"KX" = (
+/turf/open/floor/iron,
+/area/space)
+"Lp" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Processing Area"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining_station,
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/turf/open/floor/iron/dark,
+/area/space)
+"Lq" = (
+/turf/closed/wall,
+/area/space)
+"LJ" = (
+/obj/machinery/camera/autoname/directional/south{
+	network = list("mine")
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Mf" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 4
+	},
+/area/space)
+"Ml" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/mining,
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"Mr" = (
+/obj/structure/railing,
+/turf/open/floor/iron,
+/area/space)
+"MS" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"Nj" = (
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 8
+	},
+/area/space)
+"Nu" = (
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 2
+	},
+/area/space)
+"Ny" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 2
+	},
+/area/space)
+"QI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"RG" = (
+/obj/machinery/bouldertech/refinery,
+/obj/machinery/conveyor{
+	id = "mining"
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/camera/autoname/directional/east,
+/turf/open/floor/plating/reinforced,
+/area/space)
+"Sn" = (
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/plating/reinforced,
+/area/space)
+"SL" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/mining,
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"SO" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark,
+/area/space)
+"Tl" = (
+/obj/machinery/airalarm/directional/east,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 10;
+	id = "mining"
+	},
+/obj/machinery/bouldertech/refinery,
+/turf/open/floor/iron,
+/area/space)
+"TR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/effect/landmark/start/shaft_miner,
+/turf/open/floor/iron,
+/area/space)
+"TU" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+"Ut" = (
+/obj/machinery/conveyor{
+	dir = 6
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/reinforced,
+/area/space)
+"UC" = (
+/turf/closed/mineral/random/volcanic,
+/area/space)
+"UL" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"UW" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/lattice/catwalk/mining,
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"Vb" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/structure/table,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/space)
+"Vv" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"VM" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
+"Wt" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"Wu" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark/textured_edge{
+	dir = 8
+	},
+/area/space)
+"WV" = (
+/obj/machinery/mineral/unloading_machine{
+	dir = 1;
+	icon_state = "unloader-corner";
+	input_dir = 2
+	},
+/turf/open/floor/plating,
+/area/space)
+"Xs" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"XA" = (
+/obj/machinery/conveyor{
+	id = "mining"
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
+"Yo" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 4
+	},
+/area/space)
+"Yv" = (
+/obj/machinery/conveyor{
+	id = "mining_internal"
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating,
+/area/space)
+"YS" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"Zt" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/space)
+"Zy" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "lavaland_mining_north"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining_station,
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
+
+(1,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(2,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(3,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(4,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(5,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(6,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(7,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(8,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(9,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(10,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(11,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(12,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(13,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(14,1,1) = {"
+tM
+tM
+tM
+tM
+UL
+Gn
+iY
+Lq
+Lq
+Lq
+Lq
+Lq
+hy
+Lq
+Lq
+Lq
+Lq
+Lq
+Lq
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(15,1,1) = {"
+tM
+tM
+tM
+tM
+fi
+Fy
+fi
+ju
+Bk
+eR
+Lq
+mW
+Cd
+Lq
+IU
+SO
+IU
+Lq
+JP
+tM
+tM
+tM
+tM
+tM
+UL
+Gn
+iY
+Lq
+Lq
+Lq
+Lq
+Lq
+hy
+Lq
+Lq
+Lq
+Lq
+Lq
+Lq
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(16,1,1) = {"
+tM
+tM
+tM
+tM
+kS
+Xs
+SL
+Zy
+je
+Ae
+di
+CL
+Yo
+ai
+ai
+ai
+ai
+ai
+ai
+tM
+tM
+tM
+tM
+tM
+fi
+Fy
+fi
+ju
+Bk
+eR
+Lq
+mW
+Cd
+Lq
+IU
+SO
+IU
+Lq
+JP
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(17,1,1) = {"
+tM
+tM
+tM
+tM
+Ml
+Ml
+Ml
+Zy
+je
+Ae
+di
+Fw
+iv
+hr
+bB
+jQ
+aV
+mk
+YS
+tM
+tM
+tM
+tM
+tM
+kS
+Xs
+SL
+Zy
+je
+Ae
+di
+CL
+Yo
+ai
+ai
+ai
+ai
+ai
+ai
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(18,1,1) = {"
+tM
+tM
+tM
+tM
+fi
+fi
+fi
+ju
+nY
+dv
+Lq
+Lq
+Zt
+Lp
+Zt
+Lq
+Lq
+Lq
+Zt
+tM
+tM
+tM
+tM
+tM
+Ml
+UW
+Ml
+Zy
+je
+Ae
+di
+Fw
+iv
+hr
+bB
+jQ
+aV
+mk
+YS
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(19,1,1) = {"
+tM
+tM
+tM
+tM
+fi
+fi
+fi
+Lq
+Lq
+Lq
+Lq
+Lq
+BV
+Yo
+GC
+Jj
+Lq
+ar
+Mf
+tM
+tM
+tM
+tM
+tM
+fi
+Fy
+fi
+ju
+nY
+dv
+Lq
+Lq
+Zt
+Lp
+Zt
+Lq
+Lq
+Lq
+Zt
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(20,1,1) = {"
+tM
+tM
+tM
+tM
+fi
+fi
+fi
+Wt
+Wt
+Lq
+WV
+ps
+jW
+QI
+MS
+Kn
+Lq
+Ky
+Ae
+tM
+tM
+tM
+tM
+tM
+fi
+Fy
+fi
+Lq
+Lq
+Lq
+Lq
+mV
+lr
+Wu
+dA
+rr
+Lq
+ar
+Mf
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(21,1,1) = {"
+tM
+tM
+tM
+tM
+fi
+fi
+fi
+Wt
+Wt
+Lq
+ax
+Ef
+KA
+eM
+mb
+Vb
+Lq
+ly
+TU
+tM
+tM
+tM
+tM
+tM
+kS
+UW
+kS
+hT
+Ju
+tL
+Sn
+rh
+nu
+ox
+Nu
+rV
+Lq
+Ky
+Ae
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(22,1,1) = {"
+tM
+tM
+tM
+tM
+fi
+fi
+fi
+fi
+Wt
+Lq
+Cu
+Zt
+Zt
+FH
+dk
+jU
+Lq
+ej
+eT
+tM
+tM
+tM
+tM
+tM
+wg
+wg
+wg
+Wt
+Ju
+tL
+Sn
+aw
+Cq
+ox
+Ny
+qt
+Lq
+ly
+TU
+tM
+tM
+DF
+fN
+TR
+fC
+tM
+tM
+tM
+tM
+tM
+"}
+(23,1,1) = {"
+tM
+tM
+tM
+tM
+Wt
+fi
+fi
+fi
+Wt
+Lq
+uU
+Yv
+BE
+fn
+LJ
+Lq
+Lq
+Lq
+ju
+tM
+tM
+tM
+tM
+tM
+wg
+vy
+vy
+vy
+Vv
+tL
+Sn
+aw
+Nj
+jC
+Ag
+EW
+Lq
+ej
+eT
+tM
+tM
+KX
+KX
+mN
+Dk
+tM
+tM
+tM
+tM
+tM
+"}
+(24,1,1) = {"
+tM
+tM
+tM
+tM
+Wt
+fi
+fi
+fi
+fi
+Lq
+Lq
+Lq
+Lq
+ju
+ju
+Lq
+UC
+Wt
+Wt
+tM
+tM
+tM
+tM
+tM
+Wt
+fi
+fi
+fi
+Wt
+Lq
+Lq
+Ut
+XA
+RG
+XA
+ir
+Lq
+Lq
+ju
+tM
+tM
+KX
+KX
+Mr
+cW
+tM
+tM
+tM
+tM
+tM
+"}
+(25,1,1) = {"
+tM
+tM
+tM
+tM
+Wt
+fi
+fi
+fi
+fi
+fi
+Wt
+Wt
+Wt
+Wt
+Wt
+Wt
+Wt
+Wt
+Wt
+tM
+tM
+tM
+tM
+tM
+Wt
+fi
+fi
+fi
+fi
+Wt
+Lq
+Lq
+ju
+ju
+ju
+Lq
+Lq
+Wt
+Wt
+tM
+tM
+Gb
+JN
+VM
+vF
+tM
+tM
+tM
+tM
+tM
+"}
+(26,1,1) = {"
+tM
+tM
+tM
+tM
+UC
+UC
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+Wt
+Wt
+fi
+fi
+fi
+tM
+tM
+tM
+tM
+tM
+Wt
+fi
+fi
+fi
+fi
+fi
+Wt
+Wt
+Wt
+Wt
+Wt
+Wt
+Wt
+Wt
+Wt
+tM
+tM
+Ka
+lm
+mn
+Tl
+tM
+tM
+tM
+tM
+tM
+"}
+(27,1,1) = {"
+tM
+tM
+tM
+tM
+UC
+UC
+UC
+UC
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+tM
+tM
+tM
+tM
+tM
+UC
+UC
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+Wt
+Wt
+fi
+fi
+fi
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(28,1,1) = {"
+tM
+tM
+tM
+tM
+UC
+UC
+UC
+UC
+UC
+UC
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+tM
+tM
+tM
+tM
+tM
+UC
+UC
+UC
+UC
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(29,1,1) = {"
+tM
+tM
+tM
+tM
+Wt
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+Wt
+Wt
+tM
+tM
+tM
+tM
+tM
+UC
+UC
+UC
+UC
+UC
+UC
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(30,1,1) = {"
+tM
+tM
+tM
+tM
+Wt
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+tM
+tM
+tM
+tM
+tM
+Wt
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+Wt
+Wt
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(31,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+Wt
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(32,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(33,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(34,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(35,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(36,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(37,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(38,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(39,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(40,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(41,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(42,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(43,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(44,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(45,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(46,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(47,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(48,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(49,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}
+(50,1,1) = {"
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+"}

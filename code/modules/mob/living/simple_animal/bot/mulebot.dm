@@ -877,6 +877,11 @@
 	UnregisterSignal(load, COMSIG_MOVABLE_MOVED)
 	unload(0)
 
+/*** CONVOYS ***/
+/mob/living/simple_animal/bot/mulebot/convoy
+	name = "CONVOY"
+	resistance_flags = FIRE_PROOF
+	AllowedType = /obj/structure/ore_box
 #undef SIGH
 #undef ANNOYED
 #undef DELIGHT
